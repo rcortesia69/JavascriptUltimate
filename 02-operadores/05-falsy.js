@@ -46,3 +46,26 @@ function fn2() {
     console.log('Hola soy la funcion 2');
     return true;
 }
+
+let x = fn1() && fn2();
+
+/**
+ * En este caso la funcion fn1() retorna true, y la funcion fn2() tambien retorna true
+ * por lo tanto la variable x es igual a true
+ */
+
+function fn1() {
+    console.log('Hola soy la funcion 1');
+    return false;
+}
+
+function fn2() {
+    console.log('Hola soy la funcion 2');
+    return true;
+}
+
+let x = fn1() && fn2();
+/**
+ * En este caso la funcion fn1() retorna false, y la funcion fn2() retorna true
+ * por lo tanto la variable x es igual a false
+ */
