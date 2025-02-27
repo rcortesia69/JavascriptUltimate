@@ -14,4 +14,5 @@
 //byte: 00001001 -> 9
 //byte: 00001010 -> 10
 
-console.log(1 | 3);
+console.log(1 | 3); //00000011
+console.log(1 | 4); //00000101

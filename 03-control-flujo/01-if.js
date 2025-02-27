@@ -10,6 +10,6 @@ if (condicion) {
 
 let edad = 25;
 
-i edad(edad >17) {
+if edad(edad >17) {
     console.log('usuario mayor de edad');
 }
