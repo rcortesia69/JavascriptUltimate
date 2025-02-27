@@ -6,4 +6,9 @@ while (i < 10) {
     i++;
 }
 
-do {} while (i < 10);
+do {
+    if ( i % 2== 0){
+        console.log('numero par', i)
+    }
+    i++;
+} while (i < 10);
