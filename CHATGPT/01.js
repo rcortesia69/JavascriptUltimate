@@ -31,3 +31,26 @@ const IVA = 21;
 let producto = 100;
 let valorProducto = producto*IVA/100;
 console.log(valorProducto);
+
+//**
+// En este caso el ejercicio estuvo bien pero hay una mejor manera de hacerlo para mostrar el valor del iva y luego el valor
+// del producto con el iva aplicado */
+
+const IVA = 21;
+let producto = 100;
+let valorIVA = (producto * IVA) / 100; // Calcula solo el IVA
+let precioFinal = producto + valorIVA; // Suma el IVA al precio base
+
+console.log("Valor del IVA:", valorIVA);
+console.log("Precio final con IVA:", precioFinal);
+
+//**
+// En este caso el valor se muestra el valor del producto mas el valor del iva */
+//ejercicio4
+//**
+//  */
+const PI = 3.1416;
+let radio = 5;
+let resultado = PI * (radio**2)
+
+console.log(resultado);
